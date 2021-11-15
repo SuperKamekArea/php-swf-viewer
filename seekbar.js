@@ -2,10 +2,7 @@
  * July 18, 2021
  *
  * Remaining problems:
- *   IE2 sometimes crashes on exit after using the this script.
- *   In IE2, it is a little ugly because IE2 doesn't support border-radius.
- *   In IE2, it does not work at standalone Flash URLs.
- *   This is designed for IE3 and above.
+ *   I only have this to avoid hotlinking to a bookarklet website
  */
 
 (function () {
