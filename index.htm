@@ -1,0 +1,17 @@
+<html>
+<body>
+<center><img src=viewlogo.png width=100% id="logo" style="max-width: 800px;"><br />
+<style>
+#logo {
+_width:expression(this.scrollWidth > 800 ? "800px" : "auto");
+}
+</style>
+<form action="view.php">
+  <label for="file">File name:</label>
+  <input type="text" id="file" name="file"><br /><br />
+  <label for="quality">Quality:</label>
+  <input type="text" id="quality" name="quality"><br /><br />
+  <label for="quality">Resolution:</label>
+  <input type="text" id="width" name="width" style="width:50px;">x<input type="text" id="height" name="height" style="width:50px;"><br /><br />
+  <input type="submit" value="Submit">
+</form>
